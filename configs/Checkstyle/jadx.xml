@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE module PUBLIC
+		"-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+		"http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<module name="Checker">
+	<property name="fileExtensions" value="java, properties, xml"/>
+	<property name="charset" value="UTF-8"/>
+	<module name="SuppressionFilter">
+		<property name="file" value="checkstyleConfigs/jadx_suppressions.xml"/>
+		<property name="optional" value="false"/>
+	</module>
+    	<module name="TreeWalker">
+		<module name="AnnotationLocation"/>
+		<module name="EmptyLineSeparator">
+			<property name="allowNoEmptyLineBetweenFields" value="true"/>
+			<property name="allowMultipleEmptyLines" value="false"/>
+		</module>
+	</module>
+</module>

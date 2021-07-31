@@ -1,0 +1,36 @@
+./appveyor.yml:5: intepreter ==> interpreter
+./extra/WindowsCMD-AzureWebJob/CeleryBeat/run.cmd:32: runing ==> running, ruining
+./extra/WindowsCMD-AzureWebJob/Celery/run.cmd:24: runing ==> running, ruining
+./extra/generic-init.d/celerybeat:28: Unpriviliged ==> Unprivileged
+./celery/beat.py:303: currect ==> correct, current
+./celery/platforms.py:189: respons ==> response, respond
+./celery/schedules.py:445: preceed ==> precede, proceed
+./celery/canvas.py:87: chaning ==> chaining, changing
+./celery/concurrency/asynpool.py:1067: proceses ==> processes
+./celery/concurrency/asynpool.py:1247: frmo ==> from
+./celery/utils/text.py:35: identation ==> indentation
+./celery/utils/text.py:41: identation ==> indentation
+./celery/utils/functional.py:1: utilties ==> utilities
+./celery/utils/threads.py:285: indentifer ==> identifier
+./celery/app/autoretry.py:36: occures ==> occurs
+./celery/loaders/base.py:252: speciying ==> specifying
+./celery/contrib/pytest.py:19: issueing ==> issuing
+./celery/contrib/testing/mocks.py:52: Squence ==> Sequence
+./docs/history/whatsnew-4.2.rst:634: nott ==> not
+./docs/history/whatsnew-4.2.rst:634: nott ==> not
+./docs/history/changelog-4.4.rst:28: impovements ==> improvements
+./docs/history/whatsnew-4.4.rst:54: ehancement ==> enhancement
+./docs/history/whatsnew-4.0.rst:283: pase ==> pass, pace, parse
+./docs/history/whatsnew-4.0.rst:1398: bakend ==> backend, baked
+./docs/history/whatsnew-3.0.rst:527: contorl ==> control
+./t/integration/test_inspect.py:29: fo ==> of, for
+./t/unit/backends/test_redis.py:146: indicies ==> indices
+./t/unit/utils/test_collections.py:181: cant ==> can't
+./t/unit/app/test_app.py:1024: bakend ==> backend, baked
+./t/unit/app/test_app.py:1032: bakend ==> backend, baked
+./t/unit/tasks/test_canvas.py:1246: indicies ==> indices
+./t/unit/worker/test_worker.py:225: strat ==> start, strata
+./t/unit/worker/test_worker.py:226: strat ==> start, strata
+./t/unit/worker/test_worker.py:896: whats ==> what's
+./t/unit/worker/test_worker.py:896: whats ==> what's
+./docker/Dockerfile:50: thier ==> their

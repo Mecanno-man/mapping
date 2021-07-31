@@ -1,0 +1,52 @@
+RxJava: No Setup (only a config file is present): No results (using 6.34.0)
+apollo: maven-pmd-plugin 3.6 (PMD 5.3.5): No config, so can't run (quickstart config only implemented in 6.8, maven-default only included later. Possibly maven.xml, which does not check rules)
+seata: maven-pmd-plugin 3.8 (PMD 5.6.1): Nothing to check
+nacos: maven-pmd-plugin 3.8 (PMD 5.6.1): Nothing to check
+jenkins: maven-pmd-plugin, no version specified (but refers to parent pom in top-level pom?), default is 3.14.0 (PMD 6.29.0): Default maven config does not check comments
+redisson: maven-pmd-plugin 3.13.0 (PMD 6.21.0): Default config in maven does not check comments
+Sentinel:: maven-pmd-plugin 3.8 (PMD 5.6.1): Nothing to check
+tinker: No setup (only a config file is present): (using 6.34)
+
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:75:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:80:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:85:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:90:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:95:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:100:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/listener/DefaultPatchListener.java:78:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/listener/DefaultPatchListener.java:94:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/service/TinkerPatchForeService.java:11:	UncommentedEmptyConstructor:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-loader-no-op/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:76:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-loader-no-op/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:81:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-loader-no-op/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:86:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-loader-no-op/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:91:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-loader-no-op/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:96:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-android/tinker-android-loader-no-op/src/main/java/com/tencent/tinker/entry/ApplicationLike.java:101:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/aapt/AaptResourceCollector.java:341:	UncommentedEmptyConstructor:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/ApkDecoder.java:142:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/ArkHotDecoder.java:46:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/BaseDecoder.java:50:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/BsDiffDecoder.java:108:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/BsDiffDecoder.java:113:	UncommentedEmptyMethodBody:	Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/ManifestDecoder.java:538:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/decoder/ManifestDecoder.java:543:	UncommentedEmptyMethodBody:Document empty method body
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/patch/InputParam.java:222:	UncommentedEmptyConstructor:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/tinker/tinker-build/tinker-patch-lib/src/main/java/com/tencent/tinker/build/util/TinkerPatchException.java:26:	UncommentedEmptyConstructor:	Document empty constructor
+
+
+shardingsphere: maven-pmd-plugin 3.5 (PMD 5.3.2): (Crashes with config in project due to rule renamed from UncommentedEmptyMethod to UncommentedEmptyMethodBody)
+
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-features/shardingsphere-sharding/shardingsphere-sharding-common/src/main/java/org/apache/shardingsphere/sharding/rule/single/SingleTableRuleLoader.java:53:	Comment is too large: Line too long
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-governance/shardingsphere-governance-core/src/main/java/org/apache/shardingsphere/governance/core/registry/RegistryCenter.java:128:	Comment is too large: Line too long
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-infra/shardingsphere-infra-executor/src/main/java/org/apache/shardingsphere/infra/executor/sql/execute/engine/driver/jdbc/JDBCExecutorCallback.java:76:	Comment is too large: Line too long
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-infra/shardingsphere-infra-parser/src/main/java/org/apache/shardingsphere/infra/parser/ShardingSphereSQLParserEngine.java:44:	Comment is too large: Line too long
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-proxy/shardingsphere-proxy-frontend/shardingsphere-proxy-frontend-core/src/main/java/org/apache/shardingsphere/proxy/frontend/command/CommandExecutorTask.java:60:	Comment is too large: Line too long
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-scaling/shardingsphere-scaling-core/src/test/java/org/apache/shardingsphere/scaling/core/fixture/FixtureImporter.java:27:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-scaling/shardingsphere-scaling-core/src/test/java/org/apache/shardingsphere/scaling/core/fixture/FixtureIncrementalDumper.java:27:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-sql-parser/shardingsphere-sql-parser-dialect/shardingsphere-sql-parser-mysql/src/main/java/org/apache/shardingsphere/sql/parser/mysql/visitor/statement/impl/MySQLStatementSQLVisitor.java:198:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-sql-parser/shardingsphere-sql-parser-dialect/shardingsphere-sql-parser-oracle/src/main/java/org/apache/shardingsphere/sql/parser/oracle/visitor/statement/impl/OracleStatementSQLVisitor.java:118:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-sql-parser/shardingsphere-sql-parser-dialect/shardingsphere-sql-parser-postgresql/src/main/java/org/apache/shardingsphere/sql/parser/postgresql/visitor/statement/impl/PostgreSQLStatementSQLVisitor.java:172:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-sql-parser/shardingsphere-sql-parser-dialect/shardingsphere-sql-parser-sql92/src/main/java/org/apache/shardingsphere/sql/parser/sql92/visitor/statement/impl/SQL92StatementSQLVisitor.java:113:	Document empty constructor
+/home/michael/Documents/Bachelorarbeit/githubprojects/java/shardingsphere/shardingsphere-sql-parser/shardingsphere-sql-parser-dialect/shardingsphere-sql-parser-sqlserver/src/main/java/org/apache/shardingsphere/sql/parser/sqlserver/visitor/statement/impl/SQLServerStatementSQLVisitor.java:113:	Document empty constructor
+
+

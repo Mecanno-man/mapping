@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+  <property name="charset" value="UTF-8" />
+  <property name="fileExtensions" value="java"/>
+  <module name="SuppressionFilter">
+      <property name="file" value="checkstyleConfigs/elasticsearch_suppressions.xml"/>
+      <property name="optional" value="false"/>
+  </module>
+  <module name="RegexpMultiline">
+    <property name="id" value="EmptyJavadoc" />
+    <property name="format" value="\/\*[\s\*]*\*\/" />
+    <property name="fileExtensions" value="java" />
+    <property name="message" value="Empty javadoc comments are forbidden" />
+  </module>
+  <module name="LineLength">
+    <property name="max" value="140" />
+    <property name="ignorePattern" value="^ *\* *https?://[^ ]+$" />
+  </module>
+  <module name="TreeWalker">
+    <module name="MissingJavadocMethod">
+        <property name="severity" value="warning" />
+        <!-- Exclude short methods from this check - we don't want to have to document getters -->
+        <property name="minLineCount" value="2" />
+        <property name="allowedAnnotations" value="Override,Before,BeforeClass,After,AfterClass,Inject,TaskAction" />
+        <property name="ignoreMethodNamesRegex" value="^main$"/>
+        <message key="javadoc.missing" value="Public methods should be documented" />
+    </module>
+
+    <module name="MissingJavadocPackage">
+        <property name="severity" value="warning"/>
+        <message
+            key="package.javadoc.missing"
+            value="A description and other related documentation for a package should be written up in the package-info.java" />
+    </module>
+
+    <!-- Public methods must have JavaDoc -->
+    <module name="JavadocMethod">
+        <property name="severity" value="warning"/>
+        <property name="scope" value="public"/>
+    </module>
+  </module>
+</module>

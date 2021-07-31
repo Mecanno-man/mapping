@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ruleset name="PMD.rul" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>This ruleset was created from PMD.rul</description>
+        <rule ref="rulesets/java/design.xml">
+        <exclude name="AbstractClassWithoutAbstractMethod"/>
+        <exclude name="AbstractClassWithoutAnyMethod"/>
+        <exclude name="AccessorClassGeneration"/>
+        <exclude name="AccessorMethodGeneration"/>
+        <exclude name="AssignmentToNonFinalStatic"/>
+        <exclude name="AvoidDeeplyNestedIfStmts"/>
+        <exclude name="AvoidInstanceofChecksInCatchClause"/>
+        <exclude name="AvoidProtectedFieldInFinalClass"/>
+        <exclude name="AvoidProtectedMethodInFinalClassNotExtending"/>
+        <exclude name="AvoidReassigningParameters"/>
+        <exclude name="AvoidSynchronizedAtMethodLevel"/>
+        <exclude name="BadComparison"/>
+        <exclude name="ClassWithOnlyPrivateConstructorsShouldBeFinal"/>
+        <exclude name="CloseResource"/>
+        <exclude name="CompareObjectsWithEquals"/>
+        <exclude name="ConfusingTernary"/>
+        <exclude name="ConstantsInInterface"/>
+        <exclude name="ConstructorCallsOverridableMethod"/>
+        <exclude name="DataClass"/>
+        <exclude name="DefaultLabelNotLastInSwitchStmt"/>
+        <exclude name="EmptyMethodInAbstractClassShouldBeAbstract"/>
+        <exclude name="EqualsNull"/>
+        <exclude name="FieldDeclarationsShouldBeAtStartOfClass"/>
+        <exclude name="FinalFieldCouldBeStatic"/>
+        <exclude name="GodClass"/>
+        <exclude name="IdempotentOperations"/>
+        <exclude name="ImmutableField"/>
+        <exclude name="InstantiationToGetClass"/>
+        <exclude name="LogicInversion"/>
+        <exclude name="MissingBreakInSwitch"/>
+        <exclude name="MissingStaticMethodInNonInstantiatableClass"/>
+        <exclude name="NonCaseLabelInSwitchStatement"/>
+        <exclude name="NonStaticInitializer"/>
+        <exclude name="NonThreadSafeSingleton"/>
+        <exclude name="OptimizableToArrayCall"/>
+        <exclude name="PositionLiteralsFirstInCaseInsensitiveComparisons"/>
+        <exclude name="PositionLiteralsFirstInComparisons"/>
+        <exclude name="PreserveStackTrace"/>
+        <exclude name="ReturnEmptyArrayRatherThanNull"/>
+        <exclude name="SimpleDateFormatNeedsLocale"/>
+        <exclude name="SimplifyBooleanExpressions"/>
+        <exclude name="SimplifyBooleanReturns"/>
+        <exclude name="SimplifyConditional"/>
+        <exclude name="SingleMethodSingleton"/>
+        <exclude name="SingletonClassReturningNewInstance"/>
+        <exclude name="SingularField"/>
+        <exclude name="SwitchDensity"/>
+        <exclude name="SwitchStmtsShouldHaveDefault"/>
+        <exclude name="TooFewBranchesForASwitchStatement"/>
+        <exclude name="UnnecessaryLocalBeforeReturn"/>
+        <exclude name="UnsynchronizedStaticDateFormatter"/>
+        <exclude name="UseCollectionIsEmpty"/>
+        <exclude name="UseLocaleWithCaseConversions"/>
+        <exclude name="UseNotifyAllInsteadOfNotify"/>
+        <exclude name="UseUtilityClass"/>
+        <exclude name="UseVarargs"/>
+    </rule>
+</ruleset>
