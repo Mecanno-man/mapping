@@ -24,3 +24,5 @@ In both of these files, the column "rule" lists the rule, the column "scope" lis
 -- [pycodestyle linter run results.txt](/linter_output/pycodestyle linter run results.txt) contains the results of pycodestyle run on all projects using pycodestyle.
 -- [pydocstyle linter run results.txt](/linter_output/pydocstyle linter run results.txt) contains the results of pydocstyle run on all projects using pydocstyle.
 -- [pylint linter run results.txt](/linter_output/pylint linter run results.txt) contains the results of Pylint run on all projects using Pylint.
+
+The files in /linter_output were generated running the specified tool on the projects in the configuration specified in the projects, but selecting only those messages related to comments. For Checkstyle and PMD, the configs are those in /configs - for the other tools, the correct messages were selected with the command line.
